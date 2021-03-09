@@ -138,3 +138,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .vs/slnx.sqlite
+.vs/2021-Spring-NCU-MIS-DSML/v16/.suo
+.vs/ProjectSettings.json
+.vs/VSWorkspaceState.json
