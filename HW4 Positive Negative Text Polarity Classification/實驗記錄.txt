@@ -1,0 +1,17 @@
+== hw4 文本分類的任務 以textcnn為主軸 ==
+                                        val(%) test(%)
+[實驗0] NLTK Sentiment Analysis         58.67  63.58
+[實驗1] CBOW                            78.36  66.08
+[實驗2] textcnn (one-hot embedding)     72.32  64.50
+[實驗3] textcnn non-static   (Word2Vec) 74.91  65.58
+[實驗4] textcnn static       (Word2Vec)
+[實驗5] textcnn random       (Word2Vec)
+[實驗6] textcnn multichannel (Word2Vec)
+[實驗7] textcnn non-static   (GloVe)
+[實驗8] textcnn static       (BERT)
+[實驗9] textcnn static       (GPT-3)
+
+== with cleaned data ==
+[實驗.a] ...
+
+ps:Train/test on Kaggle為混和資料集，pos/neg的情感也很極端
