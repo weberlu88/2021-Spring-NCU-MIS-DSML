@@ -4,14 +4,19 @@
 [實驗1] CBOW                            78.36  66.08
 [實驗2] textcnn (one-hot embedding)     72.32  64.50
 [實驗3] textcnn non-static   (Word2Vec) 74.91  65.58
-[實驗4] textcnn static       (Word2Vec)
-[實驗5] textcnn random       (Word2Vec)
-[實驗6] textcnn multichannel (Word2Vec)
-[實驗7] textcnn non-static   (GloVe)
-[實驗8] textcnn static       (BERT)
-[實驗9] textcnn static       (GPT-3)
+[實驗4] textcnn static       (Word2Vec) 71.36  -
+[實驗5] textcnn random       (Word2Vec) -      -
+[實驗6] textcnn multichannel (Word2Vec) -      -
+[實驗7] textcnn non-static   (GloVe)    75.23  66.91
+[實驗8] textcnn static       (BERT)     76.23  64.24 
+[實驗9] textcnn static       (GPT-3)    -      -
 
 == with cleaned data ==
-[實驗.a] ...
+[實驗3a] textcnn non-static  (Word2Vec) 73.73  67.16
+[實驗7a] textcnn non-static  (GloVe)    74.27  65.41
+[實驗8a] textcnn static      (BERT)     74.55  64.08
+
 
 ps:Train/test on Kaggle為混和資料集，pos/neg的情感也很極端
+ps:static系列(固定embedding層的權重)在訓練時需更多epoch
+ps:bert的訓練loss和acc的曲線很漂亮
